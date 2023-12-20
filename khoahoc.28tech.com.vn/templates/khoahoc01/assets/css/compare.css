@@ -1,0 +1,348 @@
+.space-0 {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.space-0 > div {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.compare-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1040;
+	width: 100%;
+	height: 100%;
+	outline: 0;
+	pointer-events: none;
+	opacity: 0;
+	filter: opacity(0);
+	visibility: hidden;
+}
+
+.compare-modal.open {
+	opacity: 1;
+	filter: opacity(1);
+	visibility: visible;
+}
+
+.compare-modal .compare-content,
+.compare-modal .compare-bar {
+	pointer-events: auto;
+}
+
+.compare-modal .compare-content {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #292a30;
+	padding: 15px 15px 78px 15px;
+	opacity: 0;
+	filter: opacity(0);
+	visibility: hidden;
+}
+
+.compare-modal .compare-content.open {
+	opacity: 1;
+	filter: opacity(1);
+	visibility: visible;
+}
+
+.compare-modal .compare-bar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 78px;
+	background: #292a30;
+	padding: 15px;
+}
+
+.compare-content-inner {
+	background: #fff;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	padding: 0 0px 15px;
+	border-top: 1px solid #e6e6e6;
+	border-left: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.compare-content-inner::-webkit-scrollbar {
+	width: 4px;
+	height: 40px;
+}
+
+.compare-content-inner::-webkit-scrollbar-button {
+	display: none;
+}
+
+.compare-content-inner::-webkit-scrollbar-thumb {
+	background: var(--color-main);
+}
+
+.compare-content-inner::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+.compare-bar-items .compare-bar-item {
+	position: relative;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.compare-bar-items .compare-bar-item img {
+	height: 48px;
+	width: 48px;
+	object-fit: cover;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+
+.compare-bar-items .compare-bar-item .compare-bar-remove {
+	right: 2px;
+	left: auto;
+	opacity: 0;
+	filter: opacity(0);
+	visibility: hidden;
+}
+
+.compare-bar-items .compare-bar-item .compare-bar-remove i {
+	width: 12px;
+	height: 12px;
+	line-height: 10px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+}
+
+.compare-bar-items .compare-bar-item:hover .compare-bar-remove {
+	opacity: 1;
+	filter: opacity(1);
+	visibility: visible;
+}
+
+.compare-bar-remove {
+	cursor: pointer;
+	width: 12px;
+	height: 12px;
+	line-height: 12px;
+	text-align: center;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	-webkit-box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+}
+
+.compare-bar-remove i {
+	width: 14px;
+	height: 14px;
+	line-height: 12px;
+	color: #292a30;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.compare-bar-remove:hover {
+	background: #fff;
+}
+
+.compare-bar-remove:hover i {
+	color: var(--color-hightlight);
+}
+
+.compare-bar-btn {
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: var(--color-hightlight);
+	color: #fff;
+	padding: 0 20px 0 68px;
+	margin-left: 15px;
+	position: relative;
+	cursor: pointer;
+}
+
+.compare-bar-btn i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 48px;
+	width: 48px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 20px;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.title-compare {
+	background-color: #f1f1f1;
+	padding: 10px;
+}
+
+.sticky-title-compare {
+	background: #fff;
+	z-index: 15;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.compare-content-close {
+	position: fixed;
+	top: 15px;
+	right: 20px;
+	z-index: 99;
+}
+
+.compare-content-close i {
+	font-size: 32px;
+	color: var(--color-hightlight);
+}
+
+.compare-bar-close {
+	font-size: 30px;
+	color: #fff;
+}
+
+.ratio-compare {
+	position: relative;
+	padding-top: 60%;
+}
+
+.ratio-compare img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: auto !important;
+	object-fit: contain !important;
+}
+
+.inner-compare {
+	height: 100%;
+	padding: 15px;
+	border-right: 1px solid #e6e6e6;
+}
+
+.placeholder-empty {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.placeholder-empty::before {
+	position: absolute;
+	content: '';
+	display: inline-block;
+	width: 60px;
+	height: 8px;
+	background-color: #eee;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.placeholder-add {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+
+.placeholder-add i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 32px;
+	border: 1px dashed #bdbdbd;
+	padding: 15px;
+}
+
+.product-action .btn-product-action.added-compare i::before {
+	content: "\e902";
+	font-weight: 900;
+}
+
+div:not(.compare-modal) > div > .compare-bar,
+div:not(.compare-modal) > div > .compare-content .compare-content-inner .compare-content-close {
+	display: none !important;
+}
+
+div:not(.compare-modal) > div > .compare-content .compare-content-inner {
+	padding: 0;
+}
+
+div:not(.compare-modal) > div > .compare-content .compare-content-inner .sticky-title-compare {
+	z-index: 1;
+}
+
+@media (min-width: 1200px) {
+	.compare-modal .inner-compare {
+		padding: 20px 20px 15px;
+	}
+}
+
+@media (max-width: 767px) {
+	.product-status {
+		display: none;
+	}
+
+	.compare-bar-btn {
+		padding: 0;
+	}
+
+	.compare-bar-btn span {
+		display: none;
+	}
+
+	.compare-bar-btn i {
+		position: static;
+	}
+
+	.compare-content .product-title, .compare-content .btn-product-action {
+		font-size: 14px;
+	}
+}
+
+.is-mobile .product-status {
+	display: none;
+}
+
+.is-mobile .compare-bar-btn {
+	padding: 0;
+}
+
+.is-mobile .compare-bar-btn span {
+	display: none;
+}
+
+.is-mobile .compare-bar-btn i {
+	position: static;
+}
+
+.is-mobile .compare-content .product-title, .is-mobile .compare-content .btn-product-action {
+	font-size: 14px;
+}
