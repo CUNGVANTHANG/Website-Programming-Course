@@ -2417,6 +2417,10 @@ a.currency-picker:hover {
 	margin-left: 3px;
 }
 
+.menu-left > a{
+	color: var(--color-dark-8);
+}
+
 footer {
     color: white;
     background-color: var(--color-dark-1);

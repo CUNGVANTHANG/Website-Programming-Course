@@ -1,0 +1,24 @@
+
+.input-group {
+  border: 1px solid #ccc;
+  height: 48px;
+  border-radius: 8px;
+  overflow: hidden;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group-append {
+  display: flex;
+  align-items: center;
+  background-color: #001a65;
+  color: #fff;
+  width: 148px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.input-group-append:hover {
+    background-color: #00adef;
+}
