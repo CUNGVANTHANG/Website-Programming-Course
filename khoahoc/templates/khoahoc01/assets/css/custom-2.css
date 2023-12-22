@@ -1,0 +1,251 @@
+body{
+    -moz-user-select: none !important;
+    -webkit-touch-callout: none!important;
+    -webkit-user-select: none!important;
+    -khtml-user-select: none!important;
+    -moz-user-select: none!important;
+    -ms-user-select: none!important;
+    user-select: none!important;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0!important;
+}
+
+/*Header*/
+.logo-section img {
+    max-width: 100%;
+    max-height: 60px;
+}
+
+.header-main {
+    background: var(--color-dark-1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+/*End Header*/
+
+.btn-delete-save {
+    font-size: 13px;
+    color: var(--red);
+    font-weight: 500;
+}
+
+.btn-delete-save:hover {
+    color: var(--red);
+}
+
+.breadcrumbs.bg-dark-1 .breadcrumbs__content {
+    color: #7881c3;
+}
+
+.show-more.is-active .show-more__button {
+    display: none;
+}
+
+.you-learn ul li {
+    margin-bottom: 10px;
+}
+
+.you-learn ul li:before {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 6px;
+    color: var(--green);
+}
+
+.lecturer-item__image img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--color-hightlight);
+}
+
+.lecturer-course-item__name {
+    margin-top: 15px;
+}
+
+.lecturer-course-item__desc {
+    margin-top: 10px;
+}
+
+.lecturer-course-item__desc p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.table>:not(:first-child) {
+    border-top: 0;
+}
+
+.bootstrap-select.form-control-sm .dropdown-toggle {
+    padding: 0 15px 0 15px;
+    height: 54px;
+    line-height: 54px;
+    border-radius: 8px!important;
+}
+
+table.table.table-p-10 th, table.table.table-p-10 td {
+    padding: 10px;
+}
+
+.page-intro .page-header__text {
+    display: none;
+}
+
+.page-intro .page-header__cate {
+    display: none;
+}
+
+.overall-rating .rating-average .star-rating.star-rating--small {
+    font-size: 14px;
+    width: 70px;
+}
+
+.star-rating.star-rating--small span.star-lg::before {
+    font-size: 14px;
+}
+
+.footer-columns {
+    margin: 15px 0;
+}
+
+table.table.list-lesson tr {
+    border-bottom: 1px solid var(--color-light-5);
+}
+
+table.table.list-lesson td {
+    border-bottom: 0;
+}
+
+.modal-preview-video {
+    padding-right: 0!important;
+}
+
+.modal-preview-video .modal-dialog {
+    max-width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.modal-preview-video .modal-content {
+    height: 100vh;
+    border: 0;
+    border-radius: 0;
+}
+.modal-preview-video .modal-body {
+    text-align: center;
+}
+
+.modal-preview-video video {
+    max-width: 100%;
+    max-height: calc(100vh - 116px);
+}
+
+/* Button Contact */
+.button-contact {
+  display: inline-block;
+  position: fixed;
+  bottom: 12%;
+  right: 40px;
+  z-index: 100;
+  width: 40px;
+}
+
+.button-contact a{
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button-contact a.phone{
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #64bc46;
+  animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+}
+
+.button-contact a.phone img{
+  padding: 5px;
+}
+
+@-webkit-keyframes quick-alo-circle-img-anim {
+  0% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+  10% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+  20% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+  30% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+  40% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+}
+/* End Button Contact */
+
+.is-mobile .menu-section > ul > li {
+    padding: 0;
+}
+
+@media (max-width: 1199px) {
+    .menu-section > ul > li {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .page-nav-menu__course .x-gap-30 > * {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .page-nav-menu.-line .page-nav-menu__link {
+        text-align: center;
+    }
+    
+    .album-images .image-comment {
+        height: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .list-lesson tr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .list-lesson__chapter {
+        width: 100%;
+    }
+    
+    .list-lesson__timeline {
+        display: none;
+    }
+    
+    .list-lesson__title {
+        width: 100%;
+    }
+    
+    .list-lesson__total-time {
+        flex: 1;
+    }
+}
