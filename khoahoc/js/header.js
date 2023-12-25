@@ -167,3 +167,7 @@ const contentHeaderout = `
       var headerout = document.getElementById("header");
 
       headerout.innerHTML = contentHeaderout;
+
+// var itemsNumber = document.querySelector(".items-number")
+
+// itemsNumber.innerHTML = sessionStorage.getItem("totalOrder")

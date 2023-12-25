@@ -90,12 +90,26 @@ const contentBody = `
                           Đăng nhập
                         </button>
 
-                        <a
-                          class="fs-14 d-block mt-5"
-                          href="forgot-password.html"
-                        >
-                          Quên mật khẩu ?
-                        </a>
+                        <div style="margin-top:14px;display:flex;align-items:center;justify-content:space-between;">
+                <a
+                  class="fs-14 d-block mt-5"
+                  href="./forgot-password.html"
+                >
+                  Quên mật khẩu ?
+                </a>
+                <span>
+                Đăng nhập bằng
+                <i class="fa-brands fa-google" style="
+                margin: 0 6px;
+                font-size: 28px;
+            "></i>
+            <i class="fa-brands fa-facebook" style="
+            font-size: 28px;
+        "></i>
+                    
+                </span>
+                
+                </div>
 
                         <input type="hidden" name="redirect" value="" />
                       </form>

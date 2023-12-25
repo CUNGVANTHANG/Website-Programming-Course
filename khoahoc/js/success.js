@@ -10,10 +10,10 @@ const contentBody = `
                     <div nh-block="mz4eo5d" nh-block-cache="false" class="">
                       <nav class="breadcrumbs__content">
                         <div class="breadcrumbs__item">
-                          <a href="../index.html">Trang chủ</a>
+                          <a href="./trang-chu.html">Trang chủ</a>
                         </div>
                         <div class="breadcrumbs__item">
-                          <a href="info.html">Đơn hàng</a>
+                          <a href="./info.html">Đơn hàng</a>
                         </div>
                       </nav>
                     </div>
@@ -63,7 +63,7 @@ const contentBody = `
                         <div class="shopCompleted-info__item">
                           <div class="subtitle">Họ tên</div>
                           <div class="title text-purple-1 mt-5">
-                            nguyen van hung
+                            Admin
                           </div>
                         </div>
                       </div>
@@ -79,7 +79,7 @@ const contentBody = `
                         <div class="shopCompleted-info__item">
                           <div class="subtitle">Email</div>
                           <div class="title text-purple-1 mt-5">
-                            231@gmail.com
+                            Admin@gmail.com
                           </div>
                         </div>
                       </div>

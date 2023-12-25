@@ -1,0 +1,8 @@
+.playerVideo {
+    display: flex;
+    padding: 0;
+}
+
+#bai-tap {
+    display: none;
+}

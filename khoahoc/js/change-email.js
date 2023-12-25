@@ -34,7 +34,7 @@ const contentBody = `<div nh-row="x1rviay" class="">
 						  <b>Lấy mã xác nhận qua email</b>
 						</p>
 						<p class="mb-0 fs-12 font-weight-normal">
-						  <span class="color-hover"> Email: xchinguyen2003@gmail.com </span>
+						  <span class="color-hover"> Email: Admin@gmail.com </span>
 						</p>
 					  </div>
 					  <div class="icon-right ml-auto">

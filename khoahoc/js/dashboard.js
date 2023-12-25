@@ -75,7 +75,7 @@ const contentBody = `<div class="pb-30">
                   </li>
 
                   <li class="btn-logout mt-20">
-                    <a href="../index.html" class="button -md -dark-1 text-white fw-500 w-1/1"> Đăng xuất </a>
+                    <a href="./trang-chu.html" class="button -md -dark-1 text-white fw-500 w-1/1"> Đăng xuất </a>
                   </li>
                 </ul>
               </div>

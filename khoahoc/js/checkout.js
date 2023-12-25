@@ -68,21 +68,21 @@ const contentBody = `
                                     <tr>
                                       <td class="p-10">Tên ngân hàng</td>
                                       <td class="p-10">
-                                        <b>TECHCOMBANK</b>
+                                        <b>MB BANK</b>
                                       </td>
                                     </tr>
 
                                     <tr>
                                       <td class="p-10">Chủ tài khoản</td>
                                       <td class="p-10">
-                                        <b>TRAN XUAN LOC</b>
+                                        <b>CUNG VĂN THẮNG</b>
                                       </td>
                                     </tr>
 
                                     <tr>
                                       <td class="p-10">Số tài khoản</td>
                                       <td class="p-10">
-                                        <b>19037900865017</b>
+                                        <b>130721061808</b>
                                       </td>
                                     </tr>
                                   </tbody>

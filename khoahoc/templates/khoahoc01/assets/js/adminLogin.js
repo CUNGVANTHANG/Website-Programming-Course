@@ -9,7 +9,6 @@ function updateDisplay() {
     // Nếu đã đăng nhập hoặc có trạng thái đăng nhập từ sessionStorage, hiển thị phần tử
     userElement.style.display = "block";
     guestElement.style.display = "none";
-
   } else {
     // Nếu chưa đăng nhập, ẩn phần tử
     userElement.style.display = "none";
@@ -31,8 +30,10 @@ function logout() {
   sessionStorage.removeItem("isAuthenticated"); // Xóa trạng thái đăng nhập khỏi sessionStorage
   updateDisplay();
   // Có thể chuyển hướng về trang đăng nhập hoặc trang chủ tùy thuộc vào yêu cầu của bạn
-  window.location.href = "./trang-chu.html"; 
+  window.location.href = "./trang-chu.html";
 }
+
+var btnlogoutElement = document.querySelector(".btn-logout");
 
 // Gọi hàm khi trang được tải
 document.addEventListener("DOMContentLoaded", function () {
@@ -43,6 +44,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var logoutButton = document.getElementById("logout");
   logoutButton.addEventListener("click", logout); // Đăng ký sự kiện cho nút logout
+
+  if (btnlogoutElement) {
+    btnlogoutElement.addEventListener("click", logout);
+  }
 
   function performLogin() {
     var usernameInput = document.getElementById("username");
@@ -59,4 +64,3 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
-

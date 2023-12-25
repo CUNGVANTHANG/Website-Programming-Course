@@ -30,7 +30,10 @@ if(btnViewVideo) {
     
     const btnCloseVideo = document.querySelector("[btn-close-video]");
 
-    btnCloseVideo.addEventListener("click", function() {
-        playerVideo.innerHTML = "";
-    });
+    if (btnCloseVideo) {
+        btnCloseVideo.addEventListener("click", function() {
+            playerVideo.innerHTML = "";
+        });
+    }
+    
 }

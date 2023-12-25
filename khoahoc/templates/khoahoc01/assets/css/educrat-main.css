@@ -10713,7 +10713,7 @@ div[data-slider] > input[type=range]::-ms-tooltip {
 }
 
 .courses-single-info__content {
-	height: 57vh;
+	height: 52vh;
 	overflow-y: scroll;
 }
 

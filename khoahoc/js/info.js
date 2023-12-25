@@ -229,10 +229,9 @@ const contentBody = `
                               </div>
                             </div>
 
-                            <!-- nh-btn-action="create-order" -->
+                            
                             <div class="checkout-payment mb-10">
                               <a
-                                
                                 class="button -md -dark-1 text-white"
                                 href="./checkout.html"
                               >
@@ -241,7 +240,7 @@ const contentBody = `
                               <a
                                 title="Quay lại giỏ hàng"
                                 class="order-back fs-14 d-flex align-items-center color-main mt-15"
-                                href="/order/cart-info"
+                                href="./cart-info.html"
                               >
                                 <i class="iconsax isax-arrow-left mr-5"></i>
                                 Quay lại giỏ hàng

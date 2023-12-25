@@ -78,7 +78,7 @@ const contentBody = `<div nh-row="qmh1xt0" class="breadcrumbs bg-dark-1">
                         </div>
                       </div>
                       <div class="mb-25">
-                        <a nh-redirect="/order/info" href="./info.html" class="button -md -purple-1 px-20 text-white w-1/1">Đăng Ký Học</a>
+                        <a nh-redirect="/order/info" href="./info.html" id="orderCourse2" class="button -md -purple-1 px-20 text-white w-1/1">Đăng Ký Học</a>
                       </div>
                       <div class="courses-single-info__content-list">
                         <div class="d-flex justify-between py-8">

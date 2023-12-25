@@ -23,7 +23,7 @@ const contentBody = `
               <div class="row y-gap-30 side-content__wrap">
                 <div class="side-content col-xl-4 col-lg-4 col-md-6">
                   <a
-                    href="../hoc-lap-trinh-c-qua-170-bai-giang-320-bai-tap-coding-hackerrank-va-200-cau-trac-nghiem.html"
+                    href="./hoc-lap-trinh-c-qua-170-bai-giang-320-bai-tap-coding-hackerrank-va-200-cau-trac-nghiem.html"
                     title="Học Lập Trình C qua 170 bài giảng, 320 bài tập coding Hackerrank và 200 câu trắc nghiệm"
                     nh-product="1"
                     nh-product-item-id="1"

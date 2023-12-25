@@ -90,7 +90,7 @@ const contentBody = `
 
                         <li class="btn-logout mt-20">
                           <a
-                            href="../index.html"
+                            href="./trang-chu.html"
                             class="button -md -dark-1 text-white fw-500 w-1/1"
                           >
                             Đăng xuất
