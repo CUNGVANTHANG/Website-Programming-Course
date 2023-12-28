@@ -47,7 +47,7 @@ const contentCartUpdate = `<div nh-mini-cart="sidebar" class="sidebar-mini-cart 
 
 var cartElement = document.getElementById("cart");
 
-cartElement.innerHTML = contentCart;
+cartElement.innerHTML = contentCartUpdate;
 
 // var cartElement1 = document.getElementById("orderCourse1");
 // var cartElement2 = document.getElementById("orderCourse2");
