@@ -142,7 +142,7 @@ const contentHeaderout = `
                     href="javascript:;"
                     ><i class="iconsax isax-bag-2"></i
                     ><span nh-total-quantity-mini-cart class="items-number"
-                      >0</span
+                      >1</span
                     ></a
                   >
                 </div>
